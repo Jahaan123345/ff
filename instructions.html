@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="user.css">
+
+</head>         
+<body>
+    <section>
+        <div class="container">
+            <form action="https://formspree.io/f/xzbylrgl" method="POST">
+                <div class="form-group">
+                <label for="firstName">First name</label>
+                <input type="text" id="firstName" name="firstName" autofocus required>
+            </div>
+<div class="form-group">
+    <label for="lastName">Last name</label>
+    <input type="text" id="lastName" name="lastName" autofocus required>
+</div>
+<div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" autofocus required>
+</div>
+<div class="form-group">
+    <label for="message">Name of book and address</label>
+    <input type="text" list="book list" autocomplete="off" autocapitalize="off" cols="30" rows="10" placeholder="Book:; Address: "></div>
+ 
+    <button type="submit">Submit</button>   
+
+        </form>
+
+        </div>
+        <div id="status"></div>
+    </section>
+    <datalist id="book list">
+        <span class="Label">Pick an option:</span>
+          <select id="favoriteAnimalPreset">
+            <option label="Alpaca" value="alpaca">
+            <option label="Zebra" value="zebra">
+            <option label="Cat" value="cat">
+            <option label="Caribou" value="caribou">
+            <option label="Caterpillar" value="caterpillar">
+            <option label="Anaconda" value="anaconda">
+            <option label="Human" value="human">
+            <option label="Elephant" value="elephant">
+            <option label="Wildebeest" value="wildebeest">
+            <option label="Pigeon" value="pigeon">
+            <option label="Crab" value="crab">
+          </select>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+.gallery img {
+    margin: 5px;
+    padding: 5px;
+    width: 23%;
+    border: 1px solid black;
+    background: white
+            }
+     .rounded{
+         border-radius: 50px;
+     }
+            img{
+                height: 350;
+            }
+            .Header {
+                padding: 15px;
+                margin: 10px;
+                text-align: left;
+            }
+            .Header h1 {
+                margin: 0px;
+                color: white;                         
+                font-size: xx-large;
+                font-family: Courier New;
+                font-size: 15px;
+                font-weight: bold;
+                text-shadow: gray 10px 10px 7px;
+            }
+            .Header .Byline {
+                font-style: italic;
+                font-size: small;
+                margin: 0px;
+            }
+            .Rounded{
+                width: 90px;
+                margin: auto;
+            }
+            .Rounded img{
+                border-radius: 60%;
+            }

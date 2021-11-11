@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The circus of adventure by Enid Blyton</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="test for loader.css">
+    <style>
+        img {
+          width: 30%;
+          object-fit: cover;
+        }
+        .gallery img:hover {
+     
+     -webkit-transform: scale(1.2) rotate(0deg);
+     transform: scale(1.2) rotate(0deg);
+ }
+ .gallery img {
+margin: 5px;
+padding: 5px ;
+width: 25%;
+border: 1px solid black;
+background: white
+        }
+      </style>
+</head>
+<body>
+  <div class="loader_bg">
+    <div class="loader"></div>
+ </div><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script>
+    setTimeout(function(){
+        $('.loader_bg').fadeToggle();
+    }, 1500);
+ </script>
+  <div class="container">
+    <div class="card">
+        <div class="content">
+          <b>   <font color="dark pink"><h2>01</h2>
+            Title:The circus of adventure<br><br>
+            Author:Enid Blyton<br><br>
+            Price:₹99<br><br>
+            Pages:xx <br><br>
+            <a href="Champion review.html">Review</a><br>
+        <a href="Instructions.html">Buy</a>
+        </div>
+    </div>
+    </div>
+    </div>
+</div>
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script>
+    	VanillaTilt.init(document.querySelectorAll(".card"),{
+		max: 25,
+		speed: 400
+	});
+</script>
+   
+
+</body>
+</html>
